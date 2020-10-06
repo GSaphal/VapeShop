@@ -1,0 +1,33 @@
+@import "../scss/banner";
+@import "../scss/variables";
+@import "../scss/about";
+@import "../scss/products";
+@import "../scss/faq";
+@import "../scss/contact";
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.banner-btn {
+  background-color: $secondary_color !important ;
+  font-size: 18px;
+  margin-bottom: 50px;
+  &:hover {
+    background-color: transparent !important;
+    border: 1px solid $secondary_color;
+  }
+}
+.main-btn {
+  background-color: $secondary_color !important ;
+  font-size: 18px;
+  margin-bottom: 50px;
+  &:hover {
+    background-color: transparent !important;
+    border: 1px solid $secondary_color;
+    color: $secondary_color;
+  }
+}

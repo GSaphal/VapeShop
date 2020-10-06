@@ -1,0 +1,407 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+#home {
+  min-height: 100vh;
+  background: url("../img/vaporesso-M8CrCzlS78Y-unsplash.jpg") center no-repeat;
+}
+
+#home .banner-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  min-height: 100vh;
+}
+
+#home .banner-overlay .navbar {
+  min-height: 80px;
+  padding-top: 20px;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#home .banner-overlay .navbar .navbar-nav .nav-link {
+  padding: 20px;
+  font-size: 18px;
+  text-transform: uppercase;
+  background: transparent !important;
+  font-weight: 400;
+}
+
+#home .banner-overlay .navbar .navbar-nav .nav-link:hover {
+  color: red;
+}
+
+#home .banner-overlay .navbar .active {
+  color: red !important;
+  background-color: transparent;
+  font-weight: 600;
+}
+
+#home .banner-overlay .navbar .active:hover {
+  color: red;
+}
+
+#home .banner-overlay .banner-description {
+  margin-top: 250px;
+  margin-left: 30px;
+}
+
+#home .banner-overlay .banner-description .banner-title {
+  font-size: 5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+#home .banner-overlay .banner-description .banner-details {
+  font-size: 2.4rem;
+  font-weight: 400;
+}
+
+#home .banner-overlay .banner-description .banner-text {
+  font-size: 1.2rem;
+  margin-top: 1em;
+  color: gray;
+  margin-bottom: 3em;
+  font-weight: 400;
+}
+
+.top-nav-collapse {
+  padding-top: 10px !important;
+  padding-bottom: 10px;
+  min-height: 60px;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: black !important;
+}
+
+@media only screen and (max-width: 992px) {
+  .navbar-nav {
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+  .footer-last {
+    padding-top: 10px;
+  }
+}
+
+#about {
+  background-color: rgba(0, 0, 0, 0.9);
+  padding-top: 150px;
+  color: white;
+  min-height: 800px;
+}
+
+#about h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+#about p {
+  font-size: 1.1rem;
+  font-weight: 200;
+  line-height: 28px;
+}
+
+#about .about-small {
+  background: url("../img/banner1.jpg") center no-repeat;
+  height: 300px;
+}
+
+#about .about-small .small-overlay {
+  padding-top: 5.5em;
+  height: 300px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#about .about-small .small-overlay .about-main {
+  font-size: 3rem;
+}
+
+#about .about-small1 {
+  background: url("../img/banner4.jpg") center no-repeat;
+  height: 300px;
+}
+
+#about .about-small1 .small-overlay {
+  padding-top: 5.5em;
+  height: 300px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#about .about-small1 .small-overlay .about-main {
+  font-size: 3rem;
+}
+
+#about .about-small2 {
+  background: url("../img/banner3.jpg") center no-repeat;
+  height: 300px;
+}
+
+#about .about-small2 .small-overlay {
+  padding-top: 5.5em;
+  height: 300px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#about .about-small2 .small-overlay .about-main {
+  font-size: 3rem;
+}
+
+#products {
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.9);
+  padding-top: 150px;
+}
+
+#products h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
+}
+
+#products .card {
+  background-color: transparent;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+#products .card .card-title {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+#faq {
+  background-color: rgba(0, 0, 0, 0.9);
+  padding-top: 150px;
+  color: white;
+  min-height: 800px;
+}
+
+#faq h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
+}
+
+#faq .panel-group {
+  border-radius: 3px;
+  -webkit-box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.04);
+          box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.04);
+  margin-bottom: 0;
+  padding: 30px;
+}
+
+#faq #accordion .panel {
+  border: medium none;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin: 0 0 15px 10px;
+}
+
+#faq #accordion .panel-heading {
+  border-radius: 30px;
+  padding: 0;
+}
+
+#faq #accordion .panel-title a {
+  background: red none repeat scroll 0 0;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  color: #fff;
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 12px 20px 12px 50px;
+  position: relative;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+#faq #accordion .panel-title a.collapsed {
+  background: #fff none repeat scroll 0 0;
+  border: 1px solid #ddd;
+  color: #333;
+}
+
+#faq #accordion .panel-title a::after,
+#faq #accordion .panel-title a.collapsed::after {
+  background: red none repeat scroll 0 0;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.58);
+          box-shadow: 0 3px 10px rgba(0, 0, 0, 0.58);
+  color: #fff;
+  content: "\f078";
+  font-family: "Font Awesome\ 5 Free";
+  font-size: 25px;
+  height: 55px;
+  left: -20px;
+  line-height: 55px;
+  position: absolute;
+  text-align: center;
+  top: -5px;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  width: 55px;
+}
+
+#faq #accordion .panel-title a.collapsed::after {
+  background: #fff none repeat scroll 0 0;
+  border: 1px solid #ddd;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: #333;
+  content: "";
+}
+
+#faq #accordion .panel-body {
+  background: transparent none repeat scroll 0 0;
+  border-top: medium none;
+  padding: 20px 25px 10px 9px;
+  position: relative;
+}
+
+#faq #accordion .panel-body p {
+  border-left: 1px dashed #8c8c8c;
+  padding-left: 25px;
+}
+
+#contact {
+  min-height: 480px;
+  background-color: rgba(0, 0, 0, 0.9);
+  padding-top: 150px;
+  color: white;
+}
+
+#contact h1 {
+  font-size: 3rem;
+  color: white;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+#contact .contact4 {
+  color: #8d97ad;
+  font-weight: 300;
+}
+
+#contact .contact4 h1,
+#contact .contact4 h2,
+#contact .contact4 h3,
+#contact .contact4 h4,
+#contact .contact4 h5,
+#contact .contact4 h6 {
+  color: #3e4555;
+}
+
+#contact .contact4 .font-weight-medium {
+  font-weight: 500;
+}
+
+#contact .contact4 .form-control {
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+#contact .contact4 .form-control:focus {
+  border-color: #ffffff;
+}
+
+#contact .contact4 input::-webkit-input-placeholder,
+#contact .contact4 textarea::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+#contact .contact4 input:-ms-input-placeholder,
+#contact .contact4 textarea:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+#contact .contact4 input::-ms-input-placeholder,
+#contact .contact4 textarea::-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+#contact .contact4 input::placeholder,
+#contact .contact4 textarea::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+#contact .contact4 .right-image {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+
+@media (min-width: 1024px) {
+  #contact .contact4 .contact-box {
+    padding: 60px 105px 80px 0px;
+  }
+}
+
+@media (max-width: 767px) {
+  #contact .contact4 .contact-box {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media (max-width: 1023px) {
+  #contact .contact4 .right-image {
+    position: relative;
+    bottom: -95px;
+  }
+}
+
+.footer-last {
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.9);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.footer-last span {
+  color: red;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.banner-btn {
+  background-color: red !important;
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+
+.banner-btn:hover {
+  background-color: transparent !important;
+  border: 1px solid red;
+}
+
+.main-btn {
+  background-color: red !important;
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+
+.main-btn:hover {
+  background-color: transparent !important;
+  border: 1px solid red;
+  color: red;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,21 @@
+#products {
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.9);
+  padding-top: 150px;
+  h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+  }
+  .card {
+    background-color: transparent;
+    box-shadow: none !important;
+    .card-title {
+      color: white;
+      text-transform: uppercase;
+      font-weight: 500;
+      line-height: 36px;
+    }
+  }
+}
